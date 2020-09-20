@@ -8,6 +8,7 @@ const app = Vue.createApp({
       url: "https://www.vuemastery.com/",
       inventory: 9,
       onSale: true,
+      inStock: true,
       details: ["50% cotton", "30% wool", "20% polyester"],
       // solution
       sizes: ["S", "M", "L", "XL"],
