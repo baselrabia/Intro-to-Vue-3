@@ -12,11 +12,26 @@
 
 <body>
   <div id="app">
-    <h1>{{product}}</h1>
-    <!-- Solution -->
-    <p>{{ description }}</p>
-    <!-- Solution -->
+    <div class="nav-bar"></div>
+  
+    <div class="product-display">
+      <div class="product-container">
+        <div class="product-image">
+          <!-- image goes here -->
+          <img :src="image">
+        </div>
+        <div class="product-info">
+          <h1>{{product}}</h1>
+          <!-- Solution -->
+          <p>{{ description }}</p>
+          <!-- Solution -->
+          <a :href="url">Made by Vue Mastery</a>
+        </div>
+      </div>
+    </div>
   </div>
+
+
 
   <!-- Import App -->
   <script src="./main.js"></script>
